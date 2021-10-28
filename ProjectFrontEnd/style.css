@@ -12,9 +12,10 @@
     margin: 0 auto;
 }
 
-.home {
+.navbar {
     background: url("./image/wp3157716-black-wood-wallpaper.jpg");
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .d-flex {
@@ -33,17 +34,23 @@
     padding-top: 30px;
 }
 
-.header-section-text h1 {
+.header-section-text {
+    font-size: 30px;
+}
+
+.header-section-text h3 {
     color: #fff;
 }
 
-.header-section-text h1 span {
+.header-section-text h3 span {
     color: crimson;
 }
 
 .header-navbar nav ul li a {
    color: #fff;
-   padding: 0px 25px;
+   font-size: 18px;
+   font-weight: 501;
+   margin-left: 28px;
 }
 
 .header-navbar nav ul li a:hover {
@@ -51,32 +58,32 @@
     transition: all .5 ease;
 }
 
-.home-content{
+.home-content {
     position: relative;
     top: 120px;
     color: #fff;
 }
 
-.home-content .text-1{
+.home-content .text-1 {
     font-size: 27px;
 }
 
-.home-content .text-2{
+.home-content .text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-.home-content .text-3{
+.home-content .text-3 {
     font-size: 40px;
     margin: 5px 0;
 }
 
-.home-content .text-3 span{
+.home-content .text-3 span {
     color: crimson;
 }
 
-.home-content a{
+.home-content a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -88,7 +95,129 @@
     transition: all .3s ease;
 }
 
-.home-content a:hover{
+.home-content a:hover {
     color: crimson;
     background: none;
+}
+
+
+/* about section styling */
+section{
+    padding: 100px 0;
+}
+
+.about .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .about-content .text{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .about-content p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .about-content .left{
+    width: 45%;
+}
+
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about .about-content .right{
+    width: 55%;
+}
+
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .about-content .right .text span{
+    color: crimson;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+}
+
+.about .about-content .right a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all .3s ease;
+}
+
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+
+
+/* services section styling */
+.services{
+    color: #fff;
+    background: #111;
+}
+
+.services .title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-top: 20px;
+}
+
+.services .services-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services .serv-content .card {
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 60px 50px;
+    cursor: pointer;
+}
+
+.services .serv-content{
+    gap: 35px;
+}
+
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+}
+
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
 }
