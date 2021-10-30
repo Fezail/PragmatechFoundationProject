@@ -1,0 +1,154 @@
+.features{
+    width: auto;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.feature-header{
+    width:800px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.feature-items{
+    width:800px;
+    height: 250px;
+    margin: 0 auto; 
+    margin-top: 5px;
+}
+
+.feature-item{
+    width: 150px;
+    height: 202px;
+    border: 3px solid red;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 17px;
+    text-align: center;
+}
+
+body{
+    height: 2000px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container {
+    max-width: 1046px;
+    width: 78%;
+    margin: 0 auto;
+}
+
+img{
+    width: 380px;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 66px;
+}
+
+.subtitle {
+    font-size: 19px;
+    line-height: 28px;
+    color: #555;
+    font-weight: 500;
+    margin-top: 26px;
+}
+
+.button {
+    background-color: #f56a79;;
+    color: #fff;
+    border: 1px solid #f56a79;;
+    border-radius: 5px;
+    padding: 12px 30px;
+    text-decoration-line: none;
+}
+
+.links {
+    padding-top: 48px;
+}
+
+.main-content {
+    background: rgba(245, 106, 121, 0.1);
+}
+
+.content {
+    padding-right: 185px;
+}
+
+.feature-main{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.feature-title{
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.feature-items{
+    display: flex;
+    justify-content:space-between;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.feature-items-one{
+    flex-direction: column;
+    width: 200px;
+    height: 450px;
+    margin: 10px;
+    display: flex;
+    text-align: end;
+}
+
+.featute-items-img{
+    margin-top: 150px;
+    width: 350px;
+    height: 150px;
+    border:1px solid black;
+}
+
+.feature-items-two{
+    flex-direction: column;
+    width: 200px;
+    height: 450px;
+    margin: 10px;
+    display: flex;
+    text-align: start;
+}
+
+.feature-item-two{
+    margin: 12px;
+}
+
+.feature-item-one{
+    margin: 12px;
+}
+
+.feature-title{
+    text-align: center;
+    margin: 0px auto;
+}
+
+.div img{ 
+    margin-top: 15px;
+    height: 320px;
+    width: 320px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
