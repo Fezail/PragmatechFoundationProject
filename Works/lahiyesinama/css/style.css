@@ -1,0 +1,8 @@
+.main-navbar-nav{
+    border: 1px solid black;
+    margin: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

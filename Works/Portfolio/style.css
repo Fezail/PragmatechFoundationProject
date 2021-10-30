@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    list-style:none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.home {
+    background: url("./image/wp3157716-black-wood-wallpaper.jpg");
+    height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.header-section {
+    padding-top: 30px;
+}
+
+.header-section-text h1 {
+    color: #fff;
+}
+
+.header-section-text h1 span {
+    color: crimson;
+}
+
+.header-navbar nav ul li a {
+   color: #fff;
+   padding: 0px 25px;
+}
+
+.header-navbar nav ul li a:hover {
+    color: crimson;
+    transition: all .5 ease;
+}
+
+.home-content{
+    position: relative;
+    top: 120px;
+    color: #fff;
+}
+
+.home-content .text-1{
+    font-size: 27px;
+}
+
+.home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home-content .text-3 span{
+    color: crimson;
+}
+
+.home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all .3s ease;
+}
+
+.home-content a:hover{
+    color: crimson;
+    background: none;
+}

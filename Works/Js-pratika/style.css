@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin-top: 200px;
+    height: 300px;
+    width: 500px;
+    border: 5px solid red;
+    margin: 140px auto;
+    transition: all .6s ease;
+}

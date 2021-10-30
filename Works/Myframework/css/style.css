@@ -1,0 +1,40 @@
+#main{
+    height: 810px;
+    background-image: url(../image/hero-live-tv-homepage-1440x810.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.container{
+    width: 1349px;
+    margin: 0 auto;
+}
+
+.row{
+    padding: 40px 86px;
+}
+
+.header-logo{
+    margin-top: 11px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.d-flex li{
+    margin-right: 20px;
+}
+
+.hero-text{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 802px;
+}
+
+h1{
+    font-size: 3.5em;
+}

@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+.mainBox{
+    width: 1200px;
+    border: 1px solid black;
+    margin: 0px auto;
+}
+
+.slider{
+    width: 1200px;
+    height: 300px;
+    background: rgb(38, 0, 173);
+    border: 1px solid black;
+}
+
+.news{
+    width: 1200px;
+    border: 1px solid black;
+}
+
+.news-item{
+    margin: 10px;
+    width: 375px;
+    height: 400px;
+    background: rgb(0, 207, 121);
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.ads{
+    width: 1200px;
+    border: 1px solid black;
+}
+
+.ads-item{
+    margin: 10px;
+    width: 576px;
+    height: 400px;
+    background: rgb(216, 219, 1);
+    border: 1px solid black;
+    display: inline-block;
+}
