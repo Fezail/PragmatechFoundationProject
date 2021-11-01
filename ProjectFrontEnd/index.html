@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
-
 <body>
-    <div class="navbar">
+    <!-- navbar start -->
+    <nav class="navbar">
         <div class="container">
-            <div class="header-section d-flex justify-content-between align-items-center">
-                <div class="header-section-text">
-                    <h3>Portfo<span>lio.</span></h3>
-                </div>
-                <div class="header-navbar">
-                    <nav>
-                        <ul class="d-flex align-items-center">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Skills</a></li>
-                            <li><a href="#">Teams</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
+            <div class="logo">
+                <a href="#">Portfo<span>lio.</span></a>
             </div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="container">
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Fazail Mahmudov</div>
@@ -37,7 +38,9 @@
                 <a href="#">Hire me</a>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- home section end -->
+
 
     <!-- about section start -->
     <section class="about" id="about">
@@ -45,22 +48,24 @@
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="https://codingnepalweb.com/demos/responsive-portfolio-website/images/profile-1.jpeg" alt="">
-                  </div>
+                    <img src="Image/IMG_20211101_205006.jpg" alt="">
+                </div>
                 <div class="column right">
                     <div class="text">I'm Fazail and I'm a <span>Developer</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque, ipsa iure delectus iste itaque. Aut maiores aliquam deleniti quibusdam vel, nobis, autem, beatae illum sed nisi consequuntur voluptates saepe odit labore earum quia. Ducimus, praesentium nobis repudiandae corporis neque, asperiores tempora dolorem reiciendis itaque iusto facilis. Accusantium harum earum illum nostrum consequatur officia optio? Hic culpa dolor deserunt nulla.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
                     <a href="#">Download CV</a>
                 </div>
             </div>
         </div>
     </section>
+    <!-- about section end -->
+
 
     <!-- services section start -->
     <section class="services" id="services">
         <div class="container">
             <h2 class="title">My services</h2>
-            <div class="serv-content d-flex">
+            <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
@@ -85,7 +90,99 @@
             </div>
         </div>
     </section>
-    
-</body>
+    <!-- services section end -->
 
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-html5"></i>
+                        <p>Html</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>Css</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-js-square"></i>
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-github"></i>
+                        <p>GitHub</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-bootstrap"></i>
+                        <p>Bootstrap</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fab fa-python"></i>
+                        <p>Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills section end -->
+
+
+    <!-- blogs section start -->
+    <section class="blogs" id="blogs">
+        <div class="container">
+            <h2 class="title">Blogs</h2>
+        </div>
+    </section>
+    <!-- blogs section end -->
+
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Fazail Mahmudov</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Sumgait, Azerbaijan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">abc@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
 </html>
