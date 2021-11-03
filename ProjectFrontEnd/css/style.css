@@ -236,7 +236,12 @@ section .title{
 .skills .skills-content .card:hover{
     background: crimson;
 }
-
+.skills .skills-content .card:hover i{
+    color: #fff;
+}
+.skills .skills-content .card:hover p{
+    color: #fff;
+}
 
 
 /* blogs section styling */
