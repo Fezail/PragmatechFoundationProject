@@ -217,6 +217,25 @@ section .title{
 
 
 /* skills section styling */
+.skills .skills-content .card{
+    width: calc(16% - 20px);
+    border: 2px solid crimson;
+    text-align: center;
+    border-radius: 6px;
+    padding: 40px 0;
+    cursor: pointer;
+}
+.skills .skills-content .card i{
+    font-size: 80px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.skills .skills-content .card p{
+    font-size: 25px;
+}
+.skills .skills-content .card:hover{
+    background: crimson;
+}
 
 
 
