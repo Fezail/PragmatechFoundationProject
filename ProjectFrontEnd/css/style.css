@@ -27,7 +27,8 @@ section{
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
-.contact .contact-content{
+.contact .contact-content,
+.blogs .blogs-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -222,7 +223,7 @@ section .title{
     border: 2px solid crimson;
     text-align: center;
     border-radius: 6px;
-    padding: 40px 0;
+    padding: 20px 0;
     cursor: pointer;
 }
 .skills .skills-content .card i{
@@ -232,6 +233,7 @@ section .title{
 }
 .skills .skills-content .card p{
     font-size: 25px;
+    padding-top: 10px;
 }
 .skills .skills-content .card:hover{
     background: crimson;
@@ -242,10 +244,128 @@ section .title{
 .skills .skills-content .card:hover p{
     color: #fff;
 }
+.skills .skills-content .card:hover .box{
+    transform: scale(1.09);
+}
+.skills .skills-content .card .box{
+    transition: all 0.3s ease;
+}
 
 
 /* blogs section styling */
-
+.blogs .blogs-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.blogs .blogs-content .card:hover{
+    background: crimson;
+}
+.blogs .blogs-content .card .box{
+    transition: all 0.3s ease;
+}
+.blogs .blogs-content .card:hover .box{
+    transform: scale(1.05);
+}
+.blogs .blogs-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
 
 
 /* contact section styling */
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #333;
+}
+.contact .icons{
+    display: flex;
+}
+.contact .icon-social{
+    padding-left: 120px;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea input{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .textarea input{
+    padding-bottom: 30px;
+    resize: none;
+}
+.contact .right form .button-area{
+    display: flex;
+    align-items: center;
+}
+.right form .button-area button{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+    color: crimson;
+    background: none;
+}
