@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    left: -20%;
+    background-color: black;
+    transition: all .6s ease;
+}
+#sidebar li{
+    color: crimson;
+    font-size: 40px;
+    padding: 30px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+.toggle-btn{
+    position: absolute;
+    left: 110%;
+    top: 20px;
+    font-size: 35px;
+}
+#sidebar.active{
+    left: 0;
+}
