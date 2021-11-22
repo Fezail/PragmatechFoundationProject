@@ -1,0 +1,4 @@
+import os
+dosya.write("Men python yazmaga cehd elirem")
+
+# os.rename("/")
