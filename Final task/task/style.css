@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+.headline{
+    background: #f2f2f5;
+    padding: 10px 0;
+}
+.headline .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headline .icon{
+    display: flex;
+    align-items: center;
+}
+
+.headline i{
+    background-color: #dfdfdf;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+
+.logo{
+    padding: 25px 0;
+    display: block;
+}
+.logo .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo .box{
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+}
+.logo .box-body span{
+    display: flex;
+}
+.logo .about-box{
+    display: flex;
+}
+.logo .text-bold{
+    font-weight: 900;
+}
+.logo-text{
+    font-size: 40px;
+}
+.logo .icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar{
+    background: #323945;
+    padding: 20px 0;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .container ul{
+    display: flex;
+    align-items: center;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar menu ul ul{
+    display: none;
+}
+
+
+.home{
+    display: flex;
+    background: url(./image/home-slide-1.jpg) no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+}
+.home .container{
+    width: 100%;
+}
+.home .container h1{
+    font-size: 50px;
+}
+
+
+.shell{
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.shell .shell-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shell .shell-content .card{
+    width: calc(25% - 30px);
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+}
+.shell .shell-content .card i{
+    font-size: 50px;
+    padding: 40px 0;
+}
+.shell .shell-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.shell .shell-content .card p{
+    padding: 20px 0;
+}
+
+
+
+.service{
+    display: flex;
+    background: url(./image/bg-image-2.jpg) no-repeat center;
+    height: 40vh;
+    min-height: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+}
