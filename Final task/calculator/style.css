@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@ body{
     align-items: center;
     min-height: 100vh;
     background: #1a461a;
+    font-family: 'Open sans';
 }
 .calculator{
     display: grid;
@@ -24,12 +26,13 @@ body{
 }
 .calculator span{
     display: grid;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     color: #fff;
     background: #1f631f;
     place-items: center;
     border: 1px solid rgba(0, 0, 0, .2);
+    font-size: 20px;
 }
 .calculator span:active{
     background: #74ff3b;
@@ -37,12 +40,12 @@ body{
 }
 .calculator span.clear{
     grid-column: span 2;
-    width: 120px;
+    width: 140px;
     background: chocolate;
 }
 .calculator span.plus{
     grid-row: span 2;
-    height: 120px;
+    height: 140px;
 }
 .calculator span.equal{
     background: #038eff;
